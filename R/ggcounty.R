@@ -11,7 +11,9 @@
 #' g <- ggcounty("New York")
 ggcounty <- function(state="Maine", fill="white",
                      color="#7f7f7f", size=0.25, alpha=1) {
-
+                     
+  # http://www.census.gov/geo/maps-data/data/tiger-cart-boundary.html
+  
   state.names <- c("alabama", "alaska", "arizona", "arkansas", "california",
                    "colorado", "connecticut", "delaware", "districtofcolumbia",
                    "florida", "georgia", "hawaii", "idaho", "illinois",
