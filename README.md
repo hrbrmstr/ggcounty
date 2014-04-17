@@ -56,6 +56,6 @@ This lets you add further map layers (e.g. for a choropleth):
     gg
 
 
-![map2](https://rawgit.com/hrbrmstr/ggcounty/master/mainechoro.svg)
+![map2](https://rawgit.com/hrbrmstr/ggcounty/master/mainechoro.png)
 
 or have the county names as a quick reference or for verifitcation.
