@@ -22,7 +22,7 @@ The `maine` object in the above code contains
 - a `map` object which is a "fortified" data frame
 - a `county.names` object which is a list of all county names in that county
 
-    > str(maine)
+    str(maine)
     List of 3
      $ map         :'data.frame':	724 obs. of  7 variables:
       ..$ long : num [1:724] -70 -70 -70 -70 -70 ...
