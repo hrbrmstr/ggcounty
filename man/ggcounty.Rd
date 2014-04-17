@@ -2,8 +2,8 @@
 \alias{ggcounty}
 \title{Returns a ggplot2 object with a geom_map of the requested county}
 \usage{
-ggcounty(state = "Maine", fill = "white", color = "#7f7f7f",
-  size = 0.25, alpha = 1)
+ggcounty(state = "Maine", fips = FALSE, fill = "white",
+  color = "#7f7f7f", size = 0.25, alpha = 1)
 }
 \arguments{
   \item{state}{name string (e.g. + default = "Maine")}
