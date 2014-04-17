@@ -6,7 +6,7 @@ ggcounty(state = "Maine", fill = "white", color = "#7f7f7f",
   size = 0.25, alpha = 1)
 }
 \arguments{
-  \item{county}{name string (e.g. + default = "Maine")}
+  \item{state}{name string (e.g. + default = "Maine")}
 
   \item{fill}{color string (e.g. + default = "white")}
 
