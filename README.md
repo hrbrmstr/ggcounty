@@ -14,4 +14,4 @@ After installation, just do:
     
 To get:
 
-![map](https://raw.githubusercontent.com/hrbrmstr/ggcounty/master/maine.svg)
+![map](https://github.com/hrbrmstr/ggcounty/raw/master/maine.svg)
