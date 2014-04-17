@@ -9,8 +9,8 @@ After installation, just do:
 
     library(ggcounty)
     
-    g <- ggcounty("Maine")
-    g
+    map <- ggcounty("Maine")
+    map$gg
     
 To get:
 
