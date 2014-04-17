@@ -1,0 +1,9 @@
+Package: ggcounty
+Type: Package
+Title: Generate ggplot2 geom_map county maps
+Version: 0.1
+Date: 2014-04-16
+Author: Bob Rudis (bob@rudis.net) @hrbrmstr
+Maintainer: Who to complain to <bob@rudis.net>
+Description: Generate ggplot2 geom_map county maps
+License: MIT
