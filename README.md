@@ -1,7 +1,7 @@
 ggcounty
 ========
 
-Generate ggplot2 geom_map county maps
+Generate `ggplot2` `geom_map` United States county maps
 
 This is a simple package with one purpose: make it easier to generate US County maps with ggplot2 & geom_map
 
@@ -125,5 +125,17 @@ This lets you add further map layers (e.g. for a choropleth):
     gg
 
 ![map2](https://rawgit.com/hrbrmstr/ggcounty/master/mainechoro.png)
+
+And, combining individual maps is pretty straightforward:
+
+    ny <- ggcounty("New York", fill="#c7e9b4", color="white")
+    nj <- ggcounty("New Jersey", fill="#41b6c4", color="white")
+    pa <- ggcounty("Pennsylvania", fill="#253494", color="white")
+
+    ny$gg + nj$geom + pa$geom 
+    
+
+![map2](https://rawgit.com/hrbrmstr/ggcounty/master/tristate.png)
+
 
 or have the county names/FIPS codes as a quick reference or for verifitcation.
