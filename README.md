@@ -137,5 +137,17 @@ And, combining individual maps is pretty straightforward:
 
 ![map2](https://rawgit.com/hrbrmstr/ggcounty/master/tristate.png)
 
-
 or have the county names/FIPS codes as a quick reference or for verifitcation.
+
+    > ny$county.names
+     [1] "Albany"       "Allegany"     "Bronx"        "Broome"       "Cattaraugus"  "Cayuga"      
+     [7] "Chautauqua"   "Chemung"      "Chenango"     "Clinton"      "Columbia"     "Cortland"    
+    [13] "Delaware"     "Dutchess"     "Erie"         "Essex"        "Franklin"     "Fulton"      
+    [19] "Genesee"      "Greene"       "Hamilton"     "Herkimer"     "Jefferson"    "Kings"       
+    [25] "Lewis"        "Livingston"   "Madison"      "Monroe"       "Montgomery"   "Nassau"      
+    [31] "New York"     "Niagara"      "Oneida"       "Onondaga"     "Ontario"      "Orange"      
+    [37] "Orleans"      "Oswego"       "Otsego"       "Putnam"       "Queens"       "Rensselaer"  
+    [43] "Richmond"     "Rockland"     "Saratoga"     "Schenectady"  "Schoharie"    "Schuyler"    
+    [49] "Seneca"       "St. Lawrence" "Steuben"      "Suffolk"      "Sullivan"     "Tioga"       
+    [55] "Tompkins"     "Ulster"       "Warren"       "Washington"   "Wayne"        "Westchester" 
+    [61] "Wyoming"      "Yates"  
