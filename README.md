@@ -3,7 +3,12 @@ ggcounty
 
 Generate `ggplot2` `geom_map` United States county maps
 
-This is a simple package with one purpose: make it easier to generate US County maps with ggplot2 & geom_map
+This is a simple package with two purposes:
+
+- make it easier to generate US County maps (willing to do others if pointed to good shapefiles) with ggplot2 & geom_map
+- use more up-to-date shapefiles than what's in the `maps` package (I mean, it *still* uses "USSR" for Russia :-)
+
+As some folks have pointed out (and, one main reason I issued the request-for-comments at such an early stage) is that I wanted to gauge the desire for a more `geom`-oriented/generic way to do county-level mapping than the `#spiffy` [choroplethr](http://cran.r-project.org/web/packages/choroplethr/index.html) package.
 
 After installation, just do:
 
